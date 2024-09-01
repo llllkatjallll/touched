@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "Needle Engine",
+      "path": "./node_modules/@needle-tools/engine"
+    },
+    {
+      "name": "touched.npm",
+      "path": "node_modules/touched.npm",
+      "@needle:managed": true
+    }
+  ],
+  "settings": {
+    "window.title": "Touched",
+    "files.exclude": {
+      "package-lock.json": true,
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      "**/*.meta": true
+    }
+  }
+}
